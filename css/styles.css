@@ -47,18 +47,17 @@ body {
 
 #home-menu, #about-menu,  #services-menu, #team-menu, #portfolio-menu, #contact-menu{
     text-decoration: none;
-    border-bottom: 3px transparent #c9c9c9;
-    padding-bottom: 31px;
+    border-bottom: 2px transparent #c9c9c9;
+    padding-bottom: 33px;
     display: inline-block;
-    transition: 0.4s;
-    
+    transition: 0.3s;
 
 }
 
 #home-menu:hover, #about-menu:hover,  #services-menu:hover, #team-menu:hover, #portfolio-menu:hover, #contact-menu:hover{
     text-decoration: none;
     background-color: rgb(46, 46, 46);
-    border-bottom: 3px solid #5fc4ff ;
+    border-bottom: 2px solid #5fc4ff ;
     color: #5fc4ff;
     scroll-padding-bottom: initial;
     padding-bottom:31px;
@@ -75,9 +74,11 @@ body {
 
 .container-fluid{
     padding: 0px;
+    
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item{
+    padding-bottom: 50px;
     height: 90vh;
 }
 
@@ -107,12 +108,10 @@ body {
     color: #ffffff;
     font-size: 18px;
     border: 2px solid #00a2ff;
-    border-radius: 5px;
+    border-radius: 20px;
     width: 150px;
     padding: 9px 19px;
     transition: 0.2s;
-
-
 }
 
 .carousel-caption.d-none.d-md-block .main-btn:hover {
@@ -127,3 +126,49 @@ body {
 }
 
 
+/* sobre a empresa */
+
+#about-area{
+    background-color: #f9f9f9;
+}
+
+.main-title{
+    padding-top: 40px;
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.main-title::after{
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top:95px;
+    left: 42.2%;
+    border-color: #00a2ff;
+    
+}
+
+.about-title {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #00a2ff;
+    margin-right: 30px;
+}
