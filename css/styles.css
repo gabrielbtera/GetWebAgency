@@ -180,7 +180,7 @@ body {
     background-color: #f9f9f9;
     color: #444;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
 }
 
 .service-box h4{
@@ -210,14 +210,19 @@ body {
 
 .cicle-box div {
     padding : 0px 40px;
-    padding-top: 20px;
+    padding-top: 40px;
   
 }
 
+
+
+
 .progressbar-text {
+    padding: 0;
     font-weight: bold;
     font-size: 32px;
-    
+    text-align: center;
+  
     
 }
 
@@ -226,14 +231,34 @@ body {
     text-align: center;
     font-size: 26px;
     margin-top: 20px;
+    
 }
 
 #data-area{
     padding: 0;
-    height: 300px;
+    height: 400px;
 }
 
 #navbar-links {
     background-color: rgb(48, 48, 48);
     text-align: center;
+}
+
+/*time */
+
+.card div {
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card h5 {
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.card:hover{
+    color: #00a2ff;
 }
