@@ -114,11 +114,11 @@ body {
     transition: 0.2s;
 }
 
-.carousel-caption.d-none.d-md-block .main-btn:hover {
+.carousel-caption.d-none.d-md-block .main-btn:hover , #aplly-area a:hover{
     background-color: #00a2ff;
     text-shadow: none;
     color: #ffffff;
-    padding: 9px 19px;
+    
 }
 
 .carousel-indicators .active {
@@ -222,9 +222,8 @@ body {
     font-weight: bold;
     font-size: 32px;
     text-align: center;
-  
-    
 }
+
 
 .text-proj {
     color: #ffffff;
@@ -262,3 +261,68 @@ body {
 .card:hover{
     color: #00a2ff;
 }
+
+#team-area{
+    padding-bottom: 100px;
+}
+
+
+/* trabalhe conosco */
+
+#aplly-area  {
+    height: 500px;
+}
+
+#aplly-area .container-fluid, #aplly-area .row {
+    height: 100%;
+}
+
+#aplly-area .aplly-box {
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#aplly-area a {
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: rgb(44, 44, 44) 1px 1px 1px;
+    color: #ffffff;
+    font-size: 18px;
+    border: 2px solid #00a2ff;
+    border-radius: 20px;
+    width: 150px;
+    padding: 9px 25px;
+    transition: 0.2s;
+}
+
+#ultimo{
+    padding-bottom: 50px;
+
+}
+
+
+#company-img {
+
+    background-image: url("../img/empresa.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+#pattern-img h4, #pattern-img p{
+    color: #ffffff;
+}
+
+#pattern-img h4 {
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#pattern-img p {
+    margin-bottom: 20px;
+}
+
+
+

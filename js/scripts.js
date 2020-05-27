@@ -45,6 +45,7 @@ $(document).ready(function () {
 
     setTimeout(function() {
         $("#data-area").parallax({imageSrc: 'img/cidadeparallax.png'});
+        $("#aplly-area").parallax({imageSrc: 'img/pattern.png'});
     }, 250);
 
 
