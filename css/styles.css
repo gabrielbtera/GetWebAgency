@@ -324,5 +324,36 @@ body {
     margin-bottom: 20px;
 }
 
+/* portifolio*/
+
+.project-box {
+    margin-bottom: 30px;
+}
+
+#portifolio-area .filter-btn{
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid #444;
+    width: fit-content;
+    padding: 8px 15px;
+    font-size: 20px;
+    color: #444444;
+    transition: 0.2s;
+    text-decoration: none;
+    margin: 0px 15px;
+    min-width: 100px;
+    outline: none
+    
+}
+
+#portifolio-area .main-btn.filter-btn:hover,#portifolio-area .filter-btn.active{
+    background-color: #00a2ff;
+    color: #ffffff;
+    border: #00a2ff;
+}
 
 
+#filter-btn-box{
+    margin-bottom: 30px;
+    text-align: center;
+}
