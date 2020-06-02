@@ -357,3 +357,111 @@ body {
     margin-bottom: 30px;
     text-align: center;
 }
+
+
+/*novidades*/
+
+#news-area{
+    text-align: center;
+    background-color: #f9f9f9;
+    padding-bottom: 40px;
+}
+
+#news-area p{
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+#email-input{
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #00a2ff;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+    color: #c9c9c9;
+    text-transform: uppercase;
+    
+}
+
+#news-btn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px ;
+    background-color: #00a2ff;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #00a2ff;
+    width: fit-content;
+    font-size: 18px;
+    color: #f9f9f9;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -100px;
+    position: absolute;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+#news-btn:hover{
+    background-color: #f9f9f9;
+    color: #888;   
+}
+
+/*orçamento*/
+
+#call-area {
+    background-color: #00a2ff;
+    text-transform: uppercase;
+}
+
+#call-area .row{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+#call-area p{
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 20px;
+    width: auto;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+}
+
+#call-btn {
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid #00a2ff;
+    width: fit-content;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00a2ff;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: 30px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    transition: 0.3s;
+    letter-spacing: 2px;
+}
+
+#call-btn:hover {
+    background-color: #00a2ff;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+#call-area .container {
+    padding: 40px 100px;
+}
