@@ -328,6 +328,11 @@ body {
 
 .project-box {
     margin-bottom: 30px;
+
+}
+
+#portifolio-area{
+    background-color: #f9f9f9;
 }
 
 #portifolio-area .filter-btn{
@@ -464,4 +469,122 @@ body {
 
 #call-area .container {
     padding: 40px 100px;
+}
+
+
+/*responsive*/ 
+
+@media(max-width: 768px){
+    /* geral*/
+    .container{
+        padding: 20px 0;
+    }
+
+    #mainSlider .carousel-inner, #mainSlider .carousel-item{
+        height: auto;
+    }
+
+    .carousel-caption.d-none.d-md-block h2{
+        font-size: 30px;
+
+    }
+
+    .carousel-caption.d-none.d-md-block p {
+        font-size: 19px;
+        
+    }
+
+
+    /*sobr*/
+    #about-area .about-title{
+        font-size: 16px;
+
+    }
+
+    #about-area p{
+        font-size: 15px;
+    }
+
+    #about-list .col-md-6{
+        padding-top: 0px;
+    }
+
+    #about-area img {
+        margin-top: 100px;
+    }
+    #about-list li {
+        font-size: 15px;
+    }
+
+    #mainSlider .carousel-inner, #mainSlider .carousel-item{
+        padding-bottom: 50px;
+        height: 90vh;
+    }
+
+    /*services area*/
+
+    #service-area h4 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #service-area .row{
+        margin-top: 0;
+    }
+
+    #service-area p{
+        font-size: 14px;
+    }
+
+    /*data*/
+
+    .cicle-box div {
+        padding : 10px 40px;
+        padding-top: 15px;
+     
+    }
+    
+    
+    
+    
+    .progressbar-text {
+        padding: 0;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    
+    .text-proj {
+        font-size: 15px;
+        
+        
+    }
+    
+    #data-area{
+        padding: 0;
+        height: 200px;
+    }
+
+    /*trabalhe conosco*/
+    #pattern-img h4{
+        margin-top: 10px;
+
+    }
+
+    #aplly-area{
+        padding: 0;
+    }
+
+    #email-input {
+        width: 400px;
+    }
+
+    #call-area .container{
+        padding: 30px;
+    }
+
+    #call-area p, #call-area #call-btn{
+        font-size: 15px;
+    }
 }
