@@ -588,3 +588,123 @@ body {
         font-size: 15px;
     }
 }
+
+@media(max-width: 480px){
+    body {
+        width: 480px;
+        align-items: center;
+
+    }
+
+    #mainSlider .carousel-inner, #mainSlider .carousel-item{
+        height: 400px;
+        width: 480px;
+        align-items: center;
+    }
+    #mainSlider .carousel-inner img, #mainSlider .carousel-item img{
+        height: 400px;
+        width: 480px;
+    }
+
+    .carousel-caption h2{
+        position: absolute;
+        top: -150px;
+        left: 45px;
+        padding: 0;
+        margin: 0;
+
+
+        font-size: 18px;
+    
+    }
+    .carousel-caption p{
+        display: none;
+    }
+    .carousel-caption a {
+        position: absolute;
+        top: -50px;
+        left: 60px;
+        background-color: #00a2ff;
+        border-radius: 30px;
+        color: #ffffff;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin: 0;
+    }
+
+    .main-title {
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+
+
+    #about-area img {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    #about-area{
+        text-align: justify;
+    }
+
+    
+
+    #email-input {
+        width: auto;
+    }
+
+    /*data*/
+    .cicle-box{
+        width: 50%;
+    }
+
+    #data-area{
+        width: auto;
+        height: 500px;
+    }
+
+    /* time*/
+    #team-area .col-md-3{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    #apply-area{
+        height: auto;
+    }
+
+    #company-img{
+        display: none;
+    }
+
+    #portifolio-area .col-md-4{
+        width: 50%;
+        height: 50%;
+    }
+
+    #email-input {
+        position: absolute;
+        font-size: 10px;
+        left: 100px;
+        
+        
+    }
+
+    #news-btn{
+        font-size: 12px;
+        width: 150px;
+        left: 330px;
+    }
+
+    #call-area p{
+        font-size: 11px;
+        width: 400px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    #call-btn{
+        width: 350px;
+        margin-top: 0;
+    }
+
+}
