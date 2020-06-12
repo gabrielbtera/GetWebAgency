@@ -471,6 +471,73 @@ body {
     padding: 40px 100px;
 }
 
+/*footer*/
+
+#contact-area {
+    text-align: center;
+    background-color: #f9f9f9;
+    
+    
+}
+
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #00a2ff;
+}
+
+.col-md-4.contact-box i {
+    color: #00a2ff;
+    width: 55px;
+    height: 55px;
+    border: solid 1px #444;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+
+.col-md-4.contact-box span {
+    color: #00a2ff;
+    font-weight: bold;
+}
+
+#msg-box{
+    font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea{
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+
+#submit{
+    background-color: #00a2ff;
+    color: #ffffff;
+    border: solid 1px #00a2ff;
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#submit:hover{
+    background-color: transparent;
+    color: #00a2ff;
+}
+
+#copy-area{
+    text-align: center;
+    background-color: #444;
+    height: 100px;
+    color: #ffffff;
+}
+
+#copy-area p {
+    margin-top: 45px;
+}
 
 /*responsive*/ 
 
@@ -706,5 +773,6 @@ body {
         width: 350px;
         margin-top: 0;
     }
+
 
 }
